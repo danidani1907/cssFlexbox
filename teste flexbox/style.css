@@ -1,0 +1,53 @@
+.container{
+    background-color: palevioletred;
+    height: 300px;
+    /* define um container flex */
+    display: flex;
+    flex-direction:;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse ;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 10px;
+    color: darkorchid;
+    font-size: 32px;
+    /* alinhando os numeros */
+    display: flex;
+    /* justify content :alinha a direita  */
+    justify-content: center;
+    /*  */
+    align-items:center;
+}
+
+.item: :nth-child(2){
+    flex-shrink:3;
+    }
+    
+    .item:nth-child(5){
+        flex-grow:1;
+        order: 5;
+        }
+        
+.item:nth-child(3){
+    order: 2;
+    align-self:flex-end;
+}
+.item:nth-child(1){
+    order: 3;
+}
+.item:nth-child(4){
+    order: 4;
+}
+
+.item:nth-child(6){
+    order: 6;
+}
