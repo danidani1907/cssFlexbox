@@ -21,3 +21,36 @@ header{
     padding: 30px;
     background-color: pink;
 }
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color:rebeccapurple;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+}
+.produtos{
+    background-color: white;
+    border: 1px solid rebeccapurple;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.produtos img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+main#album{
+    display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+
+}
+
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
+}
